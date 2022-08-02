@@ -1,8 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
-import { typo } from './typo.style';
 import { reset } from './reset.style';
+import { baseStyle } from './base.style';
 
 export const GlobalStyle =  createGlobalStyle `
-    ${typo}
     ${reset}
+    ${baseStyle}
 `

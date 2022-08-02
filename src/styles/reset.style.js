@@ -8,6 +8,7 @@ export const reset = `
     }
     html, body {
         height: 100%;
+        font-family: var(--ff-primary);
     }
     body {
         line-height: 1.5;

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { colors } from '../../styles/tokens.style'
+
 
 function Footer() {
   return (
@@ -12,7 +12,8 @@ function Footer() {
 }
 
 const FooterWrapper = styled.p`
-  color: ${colors.colorGray1} 
+  color: var(--primary);
+  font-size: var(--fz500);
 `
 
 export default Footer
