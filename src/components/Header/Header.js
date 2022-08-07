@@ -4,9 +4,6 @@ function Header() {
     return (
       <Wrapper>
         <h1>header</h1>
-        <h2>header2</h2>
-        <h3>header3</h3>
-        <h4>header4</h4>
       </Wrapper>
     );
   }
